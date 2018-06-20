@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79241c4a95274402ae7ecb8babd11cc4",
+    "content-hash": "63e6dab1e6ac7f5558484f22dee6b3c6",
     "packages": [
         {
             "name": "symfony/polyfill-mbstring",

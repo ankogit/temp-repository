@@ -1,6 +1,6 @@
 <?php
-namespace application\core;
-use application\core\View;
+namespace App\Core;
+use App\Core\View;
 class Router {
     protected $routes = [];
     protected $params = [];

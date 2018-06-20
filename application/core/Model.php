@@ -1,6 +1,5 @@
 <?php
-
-namespace application\core;
+namespace App\Core;
 
 use application\lib\Db;
 

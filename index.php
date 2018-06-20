@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 require 'application/lib/Dev.php';
 
-use application\core\Router;
+use App\Core\Router;
 
 spl_autoload_register(function($class) {
     $path = str_replace('\\', '/', $class.'.php');

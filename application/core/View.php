@@ -1,6 +1,9 @@
 <?php
 
-namespace application\core;
+namespace App\Core;
+use App\Core\View;
+use Twig_Loader_Filesystem;
+use Twig_Environment;
 
 
 class View{
@@ -17,10 +20,12 @@ class View{
 	public function render($title, $vars = []) {
 		extract($vars);
 		$path = 'application/views/'.$this->path.'.php';
-		/*$name ='Main';
+
+
+		$name ='Main';
 		$name = 'application\models\\'.ucfirst($name);
 		$this->func = new $name;
-		$footer = $this->func->getFooter();*/
+		$footer = $this->func->getFooter();
 
 
 		if (file_exists($path)) {

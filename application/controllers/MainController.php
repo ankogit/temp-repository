@@ -2,7 +2,7 @@
 
 namespace application\controllers;
 
-use application\core\Controller;
+use App\Core\Controller;
 use application\lib\Pagination;
 
 class MainController extends Controller {
