@@ -1,0 +1,6 @@
+{
+    "name": "t_ant/mvcdon",
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
